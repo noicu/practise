@@ -1,0 +1,22 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tovi-cn/practise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tovi-cn/practise/issues"
+  },
+  "homepage": "https://github.com/tovi-cn/practise#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
