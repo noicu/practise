@@ -1,0 +1,18 @@
+在执行完了
+npm install
+bower install
+之后执行
+gulp serve 之后出现
+Error: ENOENT: no such file or directory, scandir ‘/home/zpz/node_modules/node-sass/vendor’
+的错误
+我们可以通过重建 node-sass 来解决，执行以下命令
+npm rebuild node-sass
+
+gulp.watch监听错误自动停止，解决方法http://www.tuicool.com/articles/nAzqiaN
+
+全局安装 gulp
+npm install --global gulp
+作为项目的开发依赖
+npm install --save-dev gulp
+安装gulp-sass编译插件
+npm install gulp-sass --save-dev

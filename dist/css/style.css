@@ -1,0 +1,12 @@
+ul {
+  margin: 100px;
+  padding: 100px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+body {
+  background: #eee;
+}

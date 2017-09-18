@@ -1,0 +1,14 @@
+$a:100px;
+$b:#eee;
+//正常
+ul {
+    margin:$a;
+    padding: $a;
+    li{
+        list-style-type: none;
+    }
+}
+body{
+    background: $b;
+
+}
